@@ -1,7 +1,7 @@
 <template>
     <header class="form-header">
       <div class="header-content">
-        <h1>Formulario de Registro</h1>
+        <h1>¡Bienvenido!</h1>
         <p>Completa los campos a continuación para registrarte</p>
         <input type="text" placeholder="Nombre" class="form-input" />
       </div>
@@ -36,7 +36,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
   }
   
   .header-content {
