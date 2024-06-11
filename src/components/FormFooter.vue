@@ -82,12 +82,14 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .footer-section {
   flex: 1;
   padding: 20px;
   min-width: 250px;
+  text-align: center; /* Añadido para centrar el contenido */
 }
 
 .footer-section .logo-text {
@@ -173,5 +175,22 @@ export default {
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .footer-section .contact-form .text-input {
+    width: 100%;
+  }
 }
 </style>
