@@ -11,6 +11,7 @@
         </form>
       </div>
     </header>
+  </div>
   </template>
   
   <script>
